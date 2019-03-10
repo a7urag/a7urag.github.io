@@ -17,33 +17,37 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
   limit: 9
   exclude:
-    forks: true
+    forks: false
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
-  # linkedin: your_username
-  # medium: @your_username
-  # stackoverflow: your_user_id
+  linkedin: anurag0022
+  medium: @anurag0022
+  stackoverflow: 9821453
   # twitter: your_username
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Android
+    web_url: https://github.com/topics/android
+    image_url: https://www.android.com/static/2016/img/logo-android-green_2x.png
 
-  - name: Web design
+ - name: React native
+   web_url: https://github.com/topics/react-native
+   image_url: https://facebook.github.io/react-native/img/header_logo.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: User Experience
+
+  # - name: Sass
+    # web_url: https://github.com/topics/sass
+    # image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
